@@ -1,0 +1,2 @@
+config:
+  info: master,config-dev,age=18,version=1.0
