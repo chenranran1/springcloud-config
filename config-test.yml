@@ -9,4 +9,4 @@ spring:
         refresh-enabled: true
         config:
           feign-api:
-            url: http://localhost:6060
+            url: http://localhost:7070
