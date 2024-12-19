@@ -1,2 +1,11 @@
 config:
   info: master,config-test,age=18,version=2.0,name=cc
+spring:
+  application:
+    name: feign-client
+  cloud:
+    openfeign:
+      client:
+        config:
+          feign-api:
+            url: http://localhost:7070
