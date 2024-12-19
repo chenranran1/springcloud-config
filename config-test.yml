@@ -6,6 +6,7 @@ spring:
   cloud:
     openfeign:
       client:
+        refresh-enabled: true
         config:
           feign-api:
             url: http://localhost:6060
